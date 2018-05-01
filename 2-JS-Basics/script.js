@@ -48,6 +48,7 @@ if ( isMarried ){
 /////////////////////////////////////////////////////////////////////
 // Lecture: Boolean logic and Switch
 //
+/*
 var age = 15;
 
 if ( age < 20) {
@@ -74,4 +75,27 @@ switch (job) {
         break;
     default:
         console.log('John does something else');
+}
+*/
+var johnHeight = 183;
+var johnAge = 47;
+var billHeight = 183;
+var billAge = 47;
+var glenHeight = 345;
+var glenAge = 122;
+
+var johnValue = johnHeight + johnAge * 5;
+var billValue = billHeight + billAge * 5;
+var glenValue = glenHeight + glenAge * 5;
+
+if (johnValue > billValue && johnValue > glenValue) {
+    console.log('Johns value ' + johnValue + ' is higher');
+    
+} else if (billValue > johnValue && billValue > glenValue) {
+    console.log('Bills value of ' + billValue + ' is higher');
+
+} else if (glenValue > johnValue && glenValue > billValue) {
+    console.log("Glen's value of " + glenValue + " is the highest ever.");
+} else {
+    console.log('They are both equally high');
 }
