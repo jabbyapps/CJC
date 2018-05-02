@@ -322,7 +322,8 @@ function printFullAge(years) {
        }
    }console.log(empty);
 }
-var full_1 = printFullAge(years);
+//var full_1 = printFullAge(years);
+printFullAge(years);
 var full_2 = printFullAge(years2);
-console.log(full_1);
-console.log(full_2);
+//console.log(full_1);
+//console.log(full_2);
